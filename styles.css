@@ -41,12 +41,18 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
+  position: absolute; /* Position the logo absolutely within its container */
+  top: 25px; /* Adjust this value to move the logo closer to the top */
+  left: 30px;
 }
 
 .navbar__menu {
   display: flex;
   align-items: center;
   list-style: none;
+  position: absolute; /* Position the logo absolutely within its container */
+  top: 10px; /* Adjust this value to move the logo closer to the top */
+  right: 10px;
 }
 
 .navbar__item {
@@ -586,15 +592,15 @@
   .projects__wrapper {
     grid-template-columns: 1fr;
   }
-}
-.aarrow {
-  width: 0; 
-  height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #333;
-  margin: 100px 0 auto; 
-  animation: bounce 2s infinite;
+  .arrow {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #333;
+    margin: 50px auto 0 auto;
+    animation: bounce 2s infinite;
+  }
 }
 
 /* Footer CSS */
