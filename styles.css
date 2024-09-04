@@ -8,7 +8,7 @@
 
 .navbar {
   background: #75846a;
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@
   text-decoration: none;
   font-size: 2rem;
   position: absolute; /* Position the logo absolutely within its container */
-  top: 25px; /* Adjust this value to move the logo closer to the top */
+  top: 22px; /* Adjust this value to move the logo closer to the top */
   left: 30px;
 }
 
@@ -51,7 +51,7 @@
   align-items: center;
   list-style: none;
   position: absolute; /* Position the logo absolutely within its container */
-  top: 10px; /* Adjust this value to move the logo closer to the top */
+  top: 5px; /* Adjust this value to move the logo closer to the top */
   right: 10px;
 }
 
@@ -180,7 +180,7 @@
 /* Hero Section */
 .hero {
   background: #75846a;
-  padding: 150px 0;
+  padding: 200px 0;
 }
 
 .hero__container {
@@ -523,7 +523,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 2rem 0;
+  padding: 5rem 0;
 }
 
 .projects h1 {
@@ -558,8 +558,8 @@
 }
 
 .projects__card img {
-  width: 100%;
-  height: 70%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 4px 4px 0 0;
 }
